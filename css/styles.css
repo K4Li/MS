@@ -35,8 +35,8 @@ hr {
   border-style: dotted none none;
   border-width: 6px;
   color: #E6E6E6;
-  display: block;
-  margin: 80px auto;
+  display: inline-block;
+  margin: 60px auto;
   width: 4%;
 }
 
@@ -51,15 +51,16 @@ p {
   padding: 40px;
 }
 
+.middle-container {
+  margin-top: 60px;
+}
+
 .top-container {
   background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
 }
 
-.middle-container {
-  margin-top: 60px;
-}
 
 /*****CLASS-STYLES*****/
 .beer {
@@ -72,6 +73,10 @@ p {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.contact-me {
+
 }
 
 .egg {
