@@ -1,6 +1,7 @@
 /*****ELEMENT-STYLES*****/
 a {
   color: #11999E;
+  padding: 40px;
 }
 
 body {
@@ -21,30 +22,50 @@ h2 {
   color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  font-weight: normal
+  font-weight: 500;
 }
 
 h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 6px;
+  color: #E6E6E6;
+  display: block;
+  margin: 80px auto;
+  width: 4%;
+}
+
+p {
+  color: #40514E;
+  font-weight: 800;
 }
 
 /*****CONTAINERS*****/
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 40px;
+}
+
 .top-container {
-  background-color: #1687a7;
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
 }
 
-.middle-container {}
-
-.bottom-container {}
+.middle-container {
+  margin-top: 60px;
+}
 
 /*****CLASS-STYLES*****/
 .beer {
-  width: 25%;
   float: left;
   margin-right: 30px;
+  width: 25%;
 }
 
 .bottom-cloud {
@@ -53,21 +74,29 @@ h3 {
   bottom: 300px;
 }
 
+.egg {
+  width: 15%;
+}
+
+.footer-link {
+  font-weight: 800;
+}
+
 .game {
   width: 25%;
   float: left;
   margin-right: 30px;
 }
 
-.hax {
-  width: 20%;
+.me {
+  color: #EAF6F6;
 }
 
 .skill-row {
+  line-height: 2;
   margin: 100px auto;
   text-align: left;
   width: 50%;
-  line-height: 2;
 }
 
 .top-cloud {
@@ -80,4 +109,46 @@ h3 {
   width: 25%;
   float: right;
   margin-left: 30px;
+}
+
+/***BUTTON****/
+.btn {
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #11999E, #18CDD3);
+  background-image: -moz-linear-gradient(top, #11999E, #18CDD3);
+  background-image: -ms-linear-gradient(top, #11999E, #18CDD3);
+  background-image: -o-linear-gradient(top, #11999E, #18CDD3);
+  background-image: -webkit-gradient(to bottom, #11999E, #18CDD3);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Brush Script MT;
+  font-size: 22px;
+  font-weight: 100;
+  padding: 12px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 60px auto;
+}
+
+.btn:hover {
+  border: solid #FFFFFF 1px;
+  background: #18CDD3;
+  background-image: -webkit-linear-gradient(top, #18CDD3, #11999E);
+  background-image: -moz-linear-gradient(top, #18CDD3, #11999E);
+  background-image: -ms-linear-gradient(top, #18CDD3, #11999E);
+  background-image: -o-linear-gradient(top, #18CDD3, #11999E);
+  background-image: -webkit-gradient(to bottom, #18CDD3, #11999E);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
