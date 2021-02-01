@@ -1,13 +1,21 @@
 /*****ELEMENT-STYLES*****/
 a {
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
   padding: 40px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
 
 body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
 }
 
 h1 {
@@ -23,6 +31,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: 500;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -32,27 +41,27 @@ h3 {
 }
 
 hr {
-  border-style: dotted none none;
-  border-width: 6px;
-  color: #E6E6E6;
+  border: dotted #E6E6E6 6px;
+  border-bottom: none;
   display: inline-block;
-  margin: 60px auto;
+  margin: 100px auto;
   width: 4%;
 }
 
 p {
   color: #40514E;
   font-weight: 800;
+  line-height: 2;
 }
 
 /*****CONTAINERS*****/
 .bottom-container {
   background-color: #66BFBF;
-  padding: 40px;
+  padding: 50px 0 20px;
 }
 
 .middle-container {
-  margin-top: 60px;
+  margin-top: 100px 0;
 }
 
 .top-container {
@@ -60,7 +69,6 @@ p {
   position: relative;
   padding-top: 100px;
 }
-
 
 /*****CLASS-STYLES*****/
 .beer {
@@ -71,12 +79,13 @@ p {
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
-.contact-me {
-
+.contact-message {
+  margin: 40px auto 60px;
+  width: 40%;
 }
 
 .egg {
@@ -93,12 +102,17 @@ p {
   margin-right: 30px;
 }
 
+.intro {
+  margin: auto;
+  width: 30%;
+}
+
 .me {
   color: #EAF6F6;
+  margin-top: 30px;
 }
 
 .skill-row {
-  line-height: 2;
   margin: 100px auto;
   text-align: left;
   width: 50%;
@@ -107,7 +121,7 @@ p {
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .video {
@@ -116,22 +130,22 @@ p {
   margin-left: 30px;
 }
 
-/***BUTTON****/
+/*****BUTTON*****/
 .btn {
-  background: #11999E;
-  background-image: -webkit-linear-gradient(top, #11999E, #18CDD3);
-  background-image: -moz-linear-gradient(top, #11999E, #18CDD3);
-  background-image: -ms-linear-gradient(top, #11999E, #18CDD3);
-  background-image: -o-linear-gradient(top, #11999E, #18CDD3);
-  background-image: -webkit-gradient(to bottom, #11999E, #18CDD3);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
   color: #FFFFFF;
-  font-family: Brush Script MT;
-  font-size: 22px;
-  font-weight: 100;
-  padding: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px;
   -webkit-box-shadow: 1px 1px 20px 0 #000000;
   -moz-box-shadow: 1px 1px 20px 0 #000000;
   box-shadow: 1px 1px 20px 0 #000000;
@@ -141,19 +155,19 @@ p {
   display: inline-block;
   cursor: pointer;
   text-align: center;
-  margin: 60px auto;
+  margin-bottom: 100px;
 }
 
 .btn:hover {
-  border: solid #FFFFFF 1px;
-  background: #18CDD3;
-  background-image: -webkit-linear-gradient(top, #18CDD3, #11999E);
-  background-image: -moz-linear-gradient(top, #18CDD3, #11999E);
-  background-image: -ms-linear-gradient(top, #18CDD3, #11999E);
-  background-image: -o-linear-gradient(top, #18CDD3, #11999E);
-  background-image: -webkit-gradient(to bottom, #18CDD3, #11999E);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
+  border: solid #2BC4AD 1px;
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
   text-decoration: none;
 }
