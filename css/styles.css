@@ -88,6 +88,12 @@ p {
   width: 40%;
 }
 
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  margin-top: 30px;
+}
+
 .egg {
   width: 15%;
 }
@@ -105,11 +111,6 @@ p {
 .intro {
   margin: auto;
   width: 30%;
-}
-
-.me {
-  color: #EAF6F6;
-  margin-top: 30px;
 }
 
 .skill-row {
